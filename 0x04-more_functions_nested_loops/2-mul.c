@@ -9,9 +9,7 @@
 int _mul(int x, int y)
 
 {
-        int result;
 
-	result = x * y
-        return result;
-        
+        return (x * y);
+
 }
