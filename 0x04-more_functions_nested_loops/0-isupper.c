@@ -3,7 +3,7 @@
 /**
  * _isupper - Check if letter is uppercase
  * @x: The number to be checked
- * Return 1 if True and 0 if false
+ * Return: 1 for upper  or 0 for any else
  */
 
 int _isupper(int x)
@@ -14,4 +14,4 @@ int _isupper(int x)
 	return (1);
 	}
 	return (0);
-}
+
