@@ -3,10 +3,11 @@
 #include "main.h"
 
 /**
- * _strncat - concatenate n charact(s) of string src to dest
+ * _strncat - concatenate n charact(s) of a string to another string
  * @dest: The destination string
  * @src: The source string
  * @n: The n chacter(s) of src
+ * Return: The n appended dest
  */
 
 char *_strncat(char *dest, char *src, int n)
