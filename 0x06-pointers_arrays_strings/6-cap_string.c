@@ -20,7 +20,7 @@ char *cap_string(char *ary)
 		ary[i] = ary[i] - 32;
 		}
 	}
-	else if (ary[i - 1] == ' ')
+	else if (ary[i - 1] == ' ' && ary[i] != ' ')
 	{
 		if (ary[i] >= 'a' && ary[i] <= 'z')
 		{
